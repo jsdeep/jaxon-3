@@ -51,7 +51,7 @@ function draw() {
   
   //code to reset the background
   if(path.y > 400 ){
-    path.y = height/2;
+    path.y = 0;
   }
   
     createCash();
@@ -107,7 +107,7 @@ function createCash() {
   cash.addImage(cashImg);
   cash.scale=0.12;
   cash.velocityY = 3;
-  cash.lifetime = 5000;
+  cash.lifetime = 500;
   cashG.add(cash);
   }
 }
@@ -118,7 +118,7 @@ function createDiamonds() {
   diamonds.addImage(diamondsImg);
   diamonds.scale=0.03;
   diamonds.velocityY = 3;
-  diamonds.lifetime = 150;
+  diamonds.lifetime = 500;
   diamondsG.add(diamonds);
 }
 }
@@ -129,7 +129,7 @@ function createJwellery() {
   jwellery.addImage(jwelleryImg);
   jwellery.scale=0.13;
   jwellery.velocityY = 3;
-  jwellery.lifetime = 150;
+  jwellery.lifetime = 500;
   jwelleryG.add(jwellery);
   }
 }
@@ -140,7 +140,7 @@ function createSword(){
   sword.addImage(swordImg);
   sword.scale=0.1;
   sword.velocityY = 3;
-  sword.lifetime = 150;
+  sword.lifetime = 500;
   swordGroup.add(sword);
   }
 }
