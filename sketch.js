@@ -107,7 +107,7 @@ function createCash() {
   cash.addImage(cashImg);
   cash.scale=0.12;
   cash.velocityY = 3;
-  cash.lifetime = 500;
+  cash.lifetime = 5000;
   cashG.add(cash);
   }
 }
